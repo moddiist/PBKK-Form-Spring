@@ -19,6 +19,11 @@ public class MainControl {
         return new ModelAndView("main-page", "employee", new Employee());
     }
 	
+	@RequestMapping("/error")
+	public String heya() {
+		return "error";
+	}
+	
 	@RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
     public String submit(@Valid @ModelAttribute("employee")Employee employee, 
       BindingResult result, ModelMap model) {

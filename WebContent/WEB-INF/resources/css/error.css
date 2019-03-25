@@ -1,0 +1,18 @@
+.big{
+	width : 400px;
+	height : 200px;
+	margin : auto;
+	background : red;
+	font-family : arial;
+	color : white;
+	border-radius : 15px;
+}
+
+h1{
+	margin-left : 110px;
+	padding-top : 30px;
+}
+
+a{
+	margin-left : 170px;
+}
