@@ -6,3 +6,6 @@
     
   Penejlasan :  
   User akan diminta untuk menginputkan biodata dari employee, setelah itu sistem akan menyimpan hasil inputan dan menampilkannya di halaman yang berbeda
+  
+  Akses : 
+  localhost:8080/PBKK-Form-Spring/employee
